@@ -207,7 +207,7 @@ the callback in a call to webshot.
 </table>
 
 ### PhantomJS version
-By default this package installs PhantomJS 1.9.x. Several issues exist in this version that are fixed in v2, but v2 is not yet stable across all platforms. The `phantomPath` option can be used to get around this if you want to try a more recent PhantomJS version. See this issue: https://github.com/brenden/node-webshot/issues/100
+By default this package installs Phantom version 2.1.1. The `phantomPath` option can be used to get around this if you want to try a different PhantomJS version.
 
 ### Phantom page properties
 In addition to these options, the following options can be specified and will be
